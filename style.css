@@ -1,0 +1,189 @@
+@font-face {
+    font-family: 'cantarellregular';
+    src: url('font/Cantarell-Regular-webfont.eot');
+    src: url('font/Cantarell-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/Cantarell-Regular-webfont.woff') format('woff'),
+         url('font/Cantarell-Regular-webfont.svg#cantarellregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+	font-family: 'cantarellregular', arial, "Times New Roman" ;
+    text-align: justify;
+    margin:0px;
+}
+
+header{
+    display: flex;
+    box-shadow: 0px 0px 4px black;
+    background-color: white;
+    width:100%;
+    height:auto;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav ul li{
+    padding:10px;
+    text-transform: uppercase;
+    list-style: none;
+}
+
+nav ul li:hover{
+    background-color: #0c69b9;
+    color:white;
+}
+
+nav ul li:hover a{
+    background-color: #0c69b9;
+    color:white;
+}
+
+nav ul li a:hover{
+    color:white;
+}
+
+footer{
+    box-shadow: 0px 0px 4px #00000038;
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+h2, h3{
+    text-align: center;
+}
+
+#logo-hb{
+    height:35px;
+    padding:5px;
+}
+
+.container{
+    padding:0px 0px;
+    margin: 0px;
+}
+
+.titre-page{
+    text-align: center;
+    color:white;
+    font-size: 30px;
+}
+
+.parcours{
+    background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),url("fond.jpg");
+    background-size: cover;
+    padding:1px 0px 50px 1px;
+}
+
+.liste-parcours{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.formation{
+    min-width: 180px;
+    max-width: 300px;
+    padding:0px 30px 20px 30px;
+    margin:10px;
+    background-color: #ffffffc9;
+}
+
+
+button{
+    margin-top:30px;
+    font-size: 14px;
+    display: block;
+    margin:auto;
+    border:none;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.bouton-bleu{
+    background-color: #194bab;
+    color:white;
+    padding:10px 20px;
+    border-radius: 3px;
+}
+
+.bouton-bleu:hover{
+    background-color: #2669ea;
+}
+
+.bouton-vert{
+    background-color: #0c6f34;
+    color:white;
+    padding:10px 20px;
+    border-radius: 3px;
+}
+
+.bouton-vert:hover{
+    background-color: #15a750;
+}
+
+.bouton-rouge{
+    background-color: #a90b0b;
+    color:white;
+    padding:10px 20px;
+    border-radius: 3px;
+}
+
+.bouton-rouge:hover{
+    background-color: #d24c4c;
+}
+
+.proprietes{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: #fbfbfb;
+    padding: 70px 0px;
+}
+
+.colonne-css{
+    display: flex;
+    flex-direction:row;
+    max-width:600px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.colonne-html{
+    width:330px;
+    border-left:1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bloc-css{
+    width:45%;
+    max-width:250px;
+    box-shadow: 0px 0px 7px #00000026;
+    margin:10px;
+    background: white;
+}
+
+.bloc-titre{
+    width:100%;
+}
+
+.bloc-html{
+    width:90%;
+    box-shadow: 0px 0px 7px #00000026;
+    margin:10px;
+    background: white;
+}
